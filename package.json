@@ -12,6 +12,7 @@
     "build": "vite build",
     "test": "jest --coverage",
     "test:watch": "jest --watchAll",
+    "test:coverage": "jest --coverage",
     "preview": "vite preview"
   },
   "devDependencies": {
