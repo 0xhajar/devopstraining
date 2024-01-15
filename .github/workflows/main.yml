@@ -44,7 +44,6 @@ jobs:
         run: echo "PIPELINE SUCCESS WITHOUT ERRORS"
   deploy:
     runs-on: ubuntu-latest
-    needs: build
     environment:
       name: 'production'
       url: ${{ steps.deploy-to-webapp.outputs.webapp-url }}
